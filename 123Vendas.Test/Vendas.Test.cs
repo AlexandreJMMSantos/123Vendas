@@ -37,7 +37,7 @@ namespace _123Vendas.Tests
             var vendaDTO = new CriarVendaDTO
             {
                 NomeCliente = "",
-                Filial = "Filial A",
+                Filial = "Filial",
                 ClienteId = Guid.NewGuid(),
                 Itens = new List<ItemVendaDTO>()
             };
@@ -54,7 +54,7 @@ namespace _123Vendas.Tests
             var vendaDTO = new CriarVendaDTO
             {
                 NomeCliente = "Cliente Exemplo",
-                Filial = "Filial 1",
+                Filial = "Filial",
                 ClienteId = Guid.NewGuid(),
                 Itens = new List<ItemVendaDTO>
                 {
@@ -90,7 +90,7 @@ namespace _123Vendas.Tests
         public async Task ObterVenda_ShouldReturnOk_WhenVendaExists()
         {
             var id = Guid.NewGuid();
-            var venda = new Venda(1, new Cliente(Guid.NewGuid(), "Cliente Teste"), "Filial A");
+            var venda = new Venda(1, Guid.NewGuid(), "Filial A");
             _vendaRepositoryMock.Setup(repo => repo.ObterPorIdAsync(id)).ReturnsAsync(venda);
 
             var result = await _controller.ObterVenda(id);
