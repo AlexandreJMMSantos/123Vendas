@@ -26,7 +26,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IVendaRepository, VendaRepository>();
 
 builder.Services.AddDbContext<VendasDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("VendasDb")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("VendasDb")), ServiceLifetime.Scoped);
 
 builder.Services.AddTransient<DatabaseInitializer>();
 

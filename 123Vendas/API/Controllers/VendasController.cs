@@ -3,6 +3,7 @@ using _123Vendas.Domain.Entities;
 using _123Vendas.Domain.Events;
 using _123Vendas.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 
 namespace _123Vendas.API.Controllers
@@ -81,9 +82,7 @@ namespace _123Vendas.API.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> ObterVenda(Guid id)
         {
-            _logger.LogInformation("Tentativa de obtenção de venda, ID: {VendaId}", id);
-
-            var venda = _vendaRepository.ObterPorIdAsync(id);
+            var venda = await _vendaRepository.ObterPorIdAsync(id); 
             if (venda == null)
             {
                 _logger.LogWarning("Venda não encontrada, ID: {VendaId}", id);
@@ -97,8 +96,6 @@ namespace _123Vendas.API.Controllers
         [HttpPut("{id}")]
         public async Task<IActionResult> AtualizarVenda(Guid id, [FromBody] CriarVendaDTO vendaDTO)
         {
-            _logger.LogInformation("Tentativa de atualização de venda, ID: {VendaId}", id);
-
             if (vendaDTO == null)
             {
                 _logger.LogWarning("Dados da venda nulos.");
@@ -117,7 +114,7 @@ namespace _123Vendas.API.Controllers
                 return BadRequest("ID Cliente deve estar preenchido.");
             }
 
-            var venda = await _vendaRepository.ObterPorIdAsync(id);
+            var venda = await _vendaRepository.ObterPorIdAsync(id); 
             if (venda == null)
             {
                 _logger.LogWarning("Venda não encontrada, ID: {VendaId}", id);
@@ -129,6 +126,7 @@ namespace _123Vendas.API.Controllers
             venda.Filial = vendaDTO.Filial;
 
             venda.Itens.Clear();
+
             foreach (var itemDTO in vendaDTO.Itens)
             {
                 if (itemDTO == null)
@@ -148,31 +146,30 @@ namespace _123Vendas.API.Controllers
                 venda.AdicionarItem(item);
             }
 
-            await _vendaRepository.AtualizarAsync(venda);
-            _logger.LogInformation("Venda atualizada com sucesso, ID: {VendaId}", id);
+            try
+            {
+                _vendaRepository.AtualizarAsync(venda); 
+                _logger.LogInformation("Venda atualizada com sucesso, ID: {VendaId}", id);
 
-            DomainEventsManager.PublicarEvento(new CompraAlterada(venda.Id));
+                DomainEventsManager.PublicarEvento(new CompraAlterada(venda.Id));
 
-            return NoContent();
+                return NoContent();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Erro ao atualizar a venda, ID: {VendaId}", id);
+                return StatusCode(500, "Erro ao atualizar a venda.");
+            }
         }
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> CancelarVenda(Guid id)
         {
-            _logger.LogInformation("Tentativa de cancelamento de venda, ID: {VendaId}", id);
-
-            var venda = await _vendaRepository.ObterPorIdAsync(id);
-            if (venda == null)
-            {
-                _logger.LogWarning("Venda não encontrada, ID: {VendaId}", id);
-                return NotFound();
-            }
-
-            venda.CancelarVenda();
-            await _vendaRepository.AtualizarAsync(venda);
+            _vendaRepository.RemoveAsync(id);
             _logger.LogInformation("Venda cancelada com sucesso, ID: {VendaId}", id);
 
-            DomainEventsManager.PublicarEvento(new CompraCancelada(venda.Id));
+            DomainEventsManager.PublicarEvento(new CompraCancelada(id));
 
             return NoContent();
         }

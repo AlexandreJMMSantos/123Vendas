@@ -37,7 +37,7 @@ namespace _123Vendas.Tests
             var vendaDTO = new CriarVendaDTO
             {
                 NomeCliente = "",
-                Filial = "Filial A",
+                Filial = "Filial",
                 ClienteId = Guid.NewGuid(),
                 Itens = new List<ItemVendaDTO>()
             };
@@ -54,7 +54,7 @@ namespace _123Vendas.Tests
             var vendaDTO = new CriarVendaDTO
             {
                 NomeCliente = "Cliente Exemplo",
-                Filial = "Filial 1",
+                Filial = "Filial",
                 ClienteId = Guid.NewGuid(),
                 Itens = new List<ItemVendaDTO>
                 {

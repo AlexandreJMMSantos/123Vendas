@@ -9,7 +9,8 @@ namespace _123Vendas.Infrastructure.Repositories
     {
         Task<Venda> ObterPorIdAsync(Guid id);
         Task AdicionarAsync(Venda venda);
-        Task AtualizarAsync(Venda venda);
+        void AtualizarAsync(Venda venda);
         Task<bool> VendaExisteAsync(Guid id);
+        void RemoveAsync(Guid id);
     }
 }
