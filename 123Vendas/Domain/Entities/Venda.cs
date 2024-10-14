@@ -11,16 +11,16 @@ namespace _123Vendas.Domain.Entities
 
         public Guid Id { get; private set; }
         public int NumeroVenda { get; set; }
-        public Cliente Cliente { get; set; }
+        public Guid ClienteId { get; set; }
         public string Filial { get; set; }
         public List<ItemVenda> Itens { get; private set; } = new List<ItemVenda>(); 
         public decimal ValorTotal { get; private set; }
 
-        public Venda(int numeroVenda, Cliente cliente, string filial)
+        public Venda(int numeroVenda, Guid clienteId , string filial)
         {
             Id = Guid.NewGuid(); 
             NumeroVenda = numeroVenda;
-            Cliente = cliente;
+            ClienteId = clienteId;
             Filial = filial;
         }
 

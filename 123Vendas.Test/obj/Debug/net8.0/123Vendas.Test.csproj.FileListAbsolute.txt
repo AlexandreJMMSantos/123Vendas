@@ -1,11 +1,4 @@
 C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\CoverletSourceRootsMapping_123Vendas.Test
-C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.csproj.AssemblyReference.cache
-C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\MvcTestingAppManifest.json
-C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.GeneratedMSBuildEditorConfig.editorconfig
-C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.AssemblyInfoInputs.cache
-C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.AssemblyInfo.cs
-C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.csproj.CoreCompileInputs.cache
-C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.sourcelink.json
 C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\testhost.dll
 C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\123Vendas.deps.json
 C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\123Vendas.runtimeconfig.json
@@ -475,6 +468,13 @@ C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\123Vendas.dll
 C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\123Vendas.pdb
 C:\Tec2Cloud\123Vendas\123Vendas.Test\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.csproj.AssemblyReference.cache
+C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\MvcTestingAppManifest.json
+C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.AssemblyInfoInputs.cache
+C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.AssemblyInfo.cs
+C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.csproj.CoreCompileInputs.cache
+C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.sourcelink.json
 C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Venda.B284E756.Up2Date
 C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\123Vendas.Test.dll
 C:\Tec2Cloud\123Vendas\123Vendas.Test\obj\Debug\net8.0\refint\123Vendas.Test.dll

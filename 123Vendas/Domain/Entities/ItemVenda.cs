@@ -1,9 +1,13 @@
-﻿namespace _123Vendas.Domain.Entities
+﻿using System.Text.Json.Serialization;
+
+namespace _123Vendas.Domain.Entities
 {
     public class ItemVenda
     {
         public Guid Id { get; set; }
         public Guid VendaId { get; set; }
+
+        [JsonIgnore]
         public Venda Venda { get; set; } 
         public Guid ProdutoId { get; set; }
         public string ProdutoNome { get; set; }

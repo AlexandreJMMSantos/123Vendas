@@ -18,8 +18,15 @@ public class VendaRepository : IVendaRepository
 
     public async Task AdicionarAsync(Venda venda)
     {
-        await _context.Vendas.AddAsync(venda);
-        await _context.SaveChangesAsync();
+        try
+        {
+            await _context.Vendas.AddAsync(venda);
+            await _context.SaveChangesAsync();
+        }
+        catch (Exception ex)
+        {
+            throw;
+        }
     }
 
     public async Task AtualizarAsync(Venda venda) 

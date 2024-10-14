@@ -49,8 +49,7 @@ namespace _123Vendas.API.Controllers
                 return BadRequest("ID Cliente deve estar preenchido.");
             }
 
-            var cliente = new Cliente(vendaDTO.ClienteId, vendaDTO.NomeCliente);
-            var venda = new Venda(vendaDTO.NumeroVenda, cliente, vendaDTO.Filial);
+            var venda = new Venda(vendaDTO.NumeroVenda, vendaDTO.ClienteId, vendaDTO.Filial);
 
             foreach (var itemDTO in vendaDTO.Itens)
             {
@@ -126,7 +125,7 @@ namespace _123Vendas.API.Controllers
             }
 
             venda.NumeroVenda = vendaDTO.NumeroVenda;
-            venda.Cliente = new Cliente(vendaDTO.ClienteId, vendaDTO.NomeCliente);
+            venda.ClienteId = vendaDTO.ClienteId;
             venda.Filial = vendaDTO.Filial;
 
             venda.Itens.Clear();
