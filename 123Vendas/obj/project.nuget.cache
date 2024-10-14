@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UIBV0zmLfCdjS2KCQKPxIAyj4awdEtkCN2zAVJKoL7rPsZCbvysF41ciCZlS93YQ+bNRqmwPwrI5R7htTAdzyg==",
+  "dgSpecHash": "0ZsdzT0FvC6a62LgPM9/EXs6wNQ2/6xYm1PpnZ+sezGZH7rYHHT8oMnRHyi17m+e3nrfYGq889/JN2RAEzyfsg==",
   "success": true,
-  "projectFilePath": "C:\\Codgo\\123Vendas\\123Vendas\\123Vendas.csproj",
+  "projectFilePath": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
