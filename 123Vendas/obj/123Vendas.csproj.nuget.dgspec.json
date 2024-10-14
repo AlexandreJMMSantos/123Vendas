@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Codgo\\123Vendas\\123Vendas\\123Vendas.csproj": {}
+    "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.csproj": {}
   },
   "projects": {
-    "C:\\Codgo\\123Vendas\\123Vendas\\123Vendas.csproj": {
+    "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Codgo\\123Vendas\\123Vendas\\123Vendas.csproj",
+        "projectUniqueName": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.csproj",
         "projectName": "123Vendas",
-        "projectPath": "C:\\Codgo\\123Vendas\\123Vendas\\123Vendas.csproj",
+        "projectPath": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.csproj",
         "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-        "outputPath": "C:\\Codgo\\123Vendas\\123Vendas\\obj\\",
+        "outputPath": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
