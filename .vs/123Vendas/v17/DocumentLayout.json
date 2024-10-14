@@ -3,8 +3,60 @@
   "WorkspaceRootPath": "C:\\Tec2Cloud\\123Vendas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\domain\\events\\domainevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\domain\\events\\domainevents.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\api\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\api\\controllers\\vendascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\infrastructure\\repositories\\vendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\infrastructure\\repositories\\vendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\infrastructure\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\infrastructure\\repositories\\clienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\application\\dtos\\itemvendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\application\\dtos\\itemvendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\infrastructure\\data\\vendasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\infrastructure\\data\\vendasdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\domain\\entities\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\domain\\entities\\venda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\domain\\entities\\itemvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\domain\\entities\\itemvenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\application\\dtos\\criarvendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\application\\dtos\\criarvendadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\infrastructure\\repositories\\ivendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\infrastructure\\repositories\\ivendarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\domain\\entities\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\123vendas.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\123vendas.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\infrastructure\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|solutionrelative:123vendas\\infrastructure\\repositories\\iclienterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F1FB5E6-D9E2-4886-B800-8834CA1087B2}|123Vendas\\123Vendas.csproj|c:\\tec2cloud\\123vendas\\123vendas\\123vendas.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -18,37 +70,190 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ItemVendaDTO.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Application\\DTOs\\ItemVendaDTO.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Application\\DTOs\\ItemVendaDTO.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Application\\DTOs\\ItemVendaDTO.cs",
+              "RelativeToolTip": "123Vendas\\Application\\DTOs\\ItemVendaDTO.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAwwBEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:26:37.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "VendaRepository.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\VendaRepository.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Infrastructure\\Repositories\\VendaRepository.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\VendaRepository.cs",
+              "RelativeToolTip": "123Vendas\\Infrastructure\\Repositories\\VendaRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:35:40.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VendasDBContext.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Data\\VendasDBContext.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Infrastructure\\Data\\VendasDBContext.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Data\\VendasDBContext.cs",
+              "RelativeToolTip": "123Vendas\\Infrastructure\\Data\\VendasDBContext.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAIwBAAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T14:16:12.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ClienteRepository.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\ClienteRepository.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Infrastructure\\Repositories\\ClienteRepository.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\ClienteRepository.cs",
+              "RelativeToolTip": "123Vendas\\Infrastructure\\Repositories\\ClienteRepository.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBIAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:34:49.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "VendasController.cs",
-              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Controllers\\VendasController.cs",
-              "RelativeDocumentMoniker": "123Vendas\\Controllers\\VendasController.cs",
-              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Controllers\\VendasController.cs",
-              "RelativeToolTip": "123Vendas\\Controllers\\VendasController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAhAAAA",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\API\\Controllers\\VendasController.cs",
+              "RelativeDocumentMoniker": "123Vendas\\API\\Controllers\\VendasController.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\API\\Controllers\\VendasController.cs",
+              "RelativeToolTip": "123Vendas\\API\\Controllers\\VendasController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBgAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-14T00:58:44.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "123Vendas",
+              "DocumentIndex": 0,
+              "Title": "DomainEvents.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Events\\DomainEvents.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Domain\\Events\\DomainEvents.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Events\\DomainEvents.cs",
+              "RelativeToolTip": "123Vendas\\Domain\\Events\\DomainEvents.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAIA1wCYAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:27:22.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItemVenda.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Entities\\ItemVenda.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Domain\\Entities\\ItemVenda.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Entities\\ItemVenda.cs",
+              "RelativeToolTip": "123Vendas\\Domain\\Entities\\ItemVenda.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswBgAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:17:52.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Venda.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Entities\\Venda.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Domain\\Entities\\Venda.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Entities\\Venda.cs",
+              "RelativeToolTip": "123Vendas\\Domain\\Entities\\Venda.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAIAwwB0AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:17:11.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CriarVendaDTO.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Application\\DTOs\\CriarVendaDTO.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Application\\DTOs\\CriarVendaDTO.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Application\\DTOs\\CriarVendaDTO.cs",
+              "RelativeToolTip": "123Vendas\\Application\\DTOs\\CriarVendaDTO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:19:45.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IVendaRepository.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\IVendaRepository.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Infrastructure\\Repositories\\IVendaRepository.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\IVendaRepository.cs",
+              "RelativeToolTip": "123Vendas\\Infrastructure\\Repositories\\IVendaRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:32:47.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Entities\\Cliente.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Domain\\Entities\\Cliente.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Domain\\Entities\\Cliente.cs",
+              "RelativeToolTip": "123Vendas\\Domain\\Entities\\Cliente.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:17:34.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Program.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Program.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Program.cs",
+              "RelativeToolTip": "123Vendas\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:36:26.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "123Vendas.http",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.http",
+              "RelativeDocumentMoniker": "123Vendas\\123Vendas.http",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.http",
+              "RelativeToolTip": "123Vendas\\123Vendas.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-10-14T14:06:18.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IClienteRepository.cs",
+              "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\IClienteRepository.cs",
+              "RelativeDocumentMoniker": "123Vendas\\Infrastructure\\Repositories\\IClienteRepository.cs",
+              "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\Infrastructure\\Repositories\\IClienteRepository.cs",
+              "RelativeToolTip": "123Vendas\\Infrastructure\\Repositories\\IClienteRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T01:34:09.553Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "123Vendas.csproj",
               "DocumentMoniker": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.csproj",
               "RelativeDocumentMoniker": "123Vendas\\123Vendas.csproj",
               "ToolTip": "C:\\Tec2Cloud\\123Vendas\\123Vendas\\123Vendas.csproj",
               "RelativeToolTip": "123Vendas\\123Vendas.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-10-14T00:46:21.186Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T00:46:21.186Z"
             }
           ]
         }
