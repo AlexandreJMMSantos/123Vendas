@@ -4,6 +4,11 @@ namespace _123Vendas.Domain.Entities
 {
     public class Venda
     {
+        public Venda()
+        {
+                
+        }
+
         public Guid Id { get; private set; }
         public int NumeroVenda { get; set; }
         public Cliente Cliente { get; set; }
