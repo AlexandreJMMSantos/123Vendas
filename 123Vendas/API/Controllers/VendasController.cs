@@ -55,8 +55,7 @@ namespace _123Vendas.API.Controllers
                     itemDTO.DescricaoProduto,
                     itemDTO.Quantidade,
                     itemDTO.ValorUnitario,
-                    itemDTO.Desconto,
-                    venda
+                    itemDTO.Desconto
                 );
 
                 venda.AdicionarItem(item); 
@@ -69,8 +68,7 @@ namespace _123Vendas.API.Controllers
                     itemDTO.DescricaoProduto,
                     itemDTO.Quantidade,
                     itemDTO.ValorUnitario,
-                    itemDTO.Desconto,
-                    venda 
+                    itemDTO.Desconto
                 );
                 venda.AdicionarItem(item);
             }
@@ -136,8 +134,7 @@ namespace _123Vendas.API.Controllers
                     itemDTO.DescricaoProduto,
                     itemDTO.Quantidade,
                     itemDTO.ValorUnitario,
-                    itemDTO.Desconto,
-                    venda
+                    itemDTO.Desconto
                 );
 
                 venda.AdicionarItem(item);

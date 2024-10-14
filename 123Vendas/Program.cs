@@ -1,7 +1,17 @@
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
+
+Log.Logger = new LoggerConfiguration()
+    .ReadFrom.Configuration(builder.Configuration)
+    .Enrich.FromLogContext() 
+    .WriteTo.Console() 
+    .CreateLogger();
+
+Log.Information("Inicializando 123Vendas...");
+
+builder.Host.UseSerilog();
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
@@ -22,3 +32,4 @@ app.UseAuthorization();
 
 app.MapControllers();
 app.Run();
+
